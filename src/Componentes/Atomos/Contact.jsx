@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 const Contact= () => {
@@ -7,9 +7,9 @@ const Contact= () => {
     
     return (
     
-        <div >
-            <a href="" > About us</a>
-            <a href="" > Contact</a>
+        <div className='contact'>
+            <Link to="" > About us</Link>
+            <Link to="" > Contact</Link>
         
         </div>
     
@@ -18,3 +18,5 @@ const Contact= () => {
 
 
 export default Contact;
+
+

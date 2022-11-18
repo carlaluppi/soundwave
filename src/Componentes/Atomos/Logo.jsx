@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.png';
-
+import {Link} from 'react-router-dom';
 
 const Logo = () => {
 
@@ -9,8 +9,8 @@ const Logo = () => {
     
         <div >
             <div className="logo"> 
-                <a href=""> <img src= {logo} alt="logo"/>    </a>             
-                <span>Soundwave</span>
+                <Link to="/"> <img src= {logo} alt="logo"/>    </Link>             
+                <span className='spanlogo'> Soundwave</span>
             </div>
 
         </div>

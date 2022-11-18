@@ -10,15 +10,12 @@ const Footer= () => {
     
         <footer className='footer'>
 
-            <div className='conteinerFooter'>
+            <div className='conteiner1'>
+                <Contact/>              
+            </div>
 
-                <div className="contact">
-                <Contact/>
-                </div>
-
-                <div className="redes">
+            <div className="conteiner2">
                 <Redes/>
-                </div>
             </div>
 
         </footer>

@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+// importar el "link" de react dom para que me linkea 
 
 
 const Boton = () => {
@@ -7,8 +9,8 @@ const Boton = () => {
     return (
     
     <div className='botones'>
-        <a href="">Discover</a>
-        <a href="">Join</a>
+        <Link to="/discover">Discover</Link>
+        <Link to="/join">Join</Link>
     </div>
     
     )

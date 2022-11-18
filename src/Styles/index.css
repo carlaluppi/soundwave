@@ -6,27 +6,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #2F303A;
   color: white;
+  width: 100%;
+  height: 100vh;
 }
 .app{
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 img {
   width: 100%;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 .conteinerNavb {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 75%;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
+  
 }
 
 .logo {
@@ -38,7 +38,7 @@ code {
   font-size: 1.2rem;
 }
 
-span {
+.spanlogo {
   margin-left: 15px;
   font-size: 1.2rem;
 }
@@ -54,7 +54,7 @@ span {
 }
 
 .conteinerMain {
-  width: 70%;
+  width: 75%;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -74,8 +74,6 @@ span {
 
 .circle {
   position: absolute;
-  width: 100%;
-  height: 100%;
   display: flex;
   
 }
@@ -103,7 +101,7 @@ span {
 
 .bg {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position:relative;
   
   
@@ -112,10 +110,12 @@ span {
 .girl {
   position:absolute;
   width: 350px;
+  left: 208px;
+  bottom: -29px;
 }
 
 .imgx4 {
-  width: 380px;
+  width: 340px;
 }
 
 .conteinerTexto {
@@ -125,7 +125,8 @@ span {
 .conteinerBotones{
 
   display:flex;
-  width: 300px;
+  width: 250px;
+  justify-content: space-around;
 
 }
 
@@ -134,16 +135,22 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
+  width: 40px;
+  height: 40px;
   padding: 15px;
   text-align: center;
+  font-size: 0.8rem;
     
 }
 
 .imgbot1 {
   display: flex;
-  width: 35px;
+  width: 25px;
   top: 5px;
+}
+
+span {
+  margin-top: 5px;
 }
 
 
@@ -156,18 +163,46 @@ span {
   justify-content: center;
 
   }
-.conteinerFooter {
-  width: 70%;
-  display: flex;
-  justify-content: space-between;
+.conteiner1 {
+  width: 60%;
+  margin-left: 80px;
 }
+.conteiner2 {
+  width: 40%;
+  display: flex;
+
+}
+
+.redes a{
+  color:white;
+  text-decoration: none;  
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    
+
+    
+  }
+
 
 .redes {
   display: flex;
-  width: 30%;
-  font-size: 0.6rem;
-  flex-direction: flex-end;
+  flex-direction: row;
   font-size: 0.8rem;
+  justify-content:center; 
+  width: 30px;
 }
 
 .contact a {
@@ -175,8 +210,43 @@ span {
   text-decoration: none;
   margin: 15px;
   font-size: 0.8rem;
+
+}
+
+.contact {
   display: flex;
   align-content: center;
   flex-direction: row;
+}
 
+.parra {
+  font-size: 1rem;
+}
+
+@media (max-width: 480px)  {
+  .girl {
+    display: none;
+  }
+  .conteinerNavb {
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .botones {
+    margin-top: 23px;
+  }
+  .conteinerMain {
+    align-content: center;
+  }
+  .circle1 { 
+    width: 80px;
+    height:80px;
+  }
+
+  .circle2 { 
+    width: 80px;
+    height:80px;
+
+  }
 }

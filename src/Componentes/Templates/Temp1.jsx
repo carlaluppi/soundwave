@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import Org1 from '../Organismos/Org1';
-import Circle from '../Moleculas/Circle';
+import Circle from '../Atomos/Circle';
 
 
 

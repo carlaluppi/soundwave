@@ -20,17 +20,19 @@ const Main = () => {
                 <div className='conteinerBotones'>
 
                     <div className='bot1'>
-                    <a href=""> <img className="imgbot1" src= {Charts} alt="charts"/>    </a>     
-                    
-                    <span>Charts</span>
-                        
+                        <a href=""> <img className="imgbot1" src= {Charts} alt="charts"/>    </a>     
+                        <span>  Charts</span>
                     </div>
 
-                    <a href=""> <img src= {Albums} alt="albums"/>    </a>             
-                    <span>Albums</span>
+                    <div className="bot1">
+                        <a href=""> <img className="imgbot1" src= {Albums} alt="albums"/>    </a>             
+                        <span>  Albums</span>
+                    </div>
 
-                    <a href=""> <img src= {More} alt="more"/>    </a>             
-                    <span>More</span>
+                    <div className="bot1">
+                        <a href=""> <img className="imgbot1" src= {More} alt="more"/>    </a>             
+                        <span>  More</span>
+                    </div>
 
                 </div>
                 
