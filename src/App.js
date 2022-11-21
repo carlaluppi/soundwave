@@ -1,20 +1,23 @@
-
-
-
-
-// import Pag1 from './Componentes/Pages/Page1';
-// import Pag2 from './Componentes/Pages/Pag2';
-import Router from '../src/Router/Router';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    
     <div className="App">
-{/* 
-        <Pag1/>
-    <Pag2/> */}
-    <Router/>
-
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
