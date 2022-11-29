@@ -8,7 +8,7 @@ const Contact= () => {
     return (
     
         <div className='contact'>
-            <Link to="#" > About us</Link>
+            <Link to="" > About us</Link>
             <Link to="" > Contact</Link>
         
         </div>
